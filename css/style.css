@@ -20,7 +20,7 @@ body
     transform: 0.5s;
 }
 
-.item:hover
+.item:hover 
 {
     opacity: 1;
 }
@@ -41,3 +41,25 @@ body
         margin: 0 auto;
     }
 }
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+.middle:hover  {
+    opacity: 1;
+  }
+  
+  .text {
+    color: #fff;
+    font-size: 16px;
+    padding: 32px 40px; 
+    font-family: 'Inconsolata', monospace;
+  }
