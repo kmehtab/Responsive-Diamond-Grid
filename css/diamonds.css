@@ -27,8 +27,8 @@
 
 .diamond-box-wrap {
     float: left;
-    width: 250px; /* Size of diamonds */
-    height: 250px;
+    width: 350px; /* Size of diamonds */
+    height: 350px;
 }
 
 .diamond-box {
